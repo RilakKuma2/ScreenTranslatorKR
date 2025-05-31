@@ -1,3 +1,3 @@
 pip install Pillow pyautogui google-generativeai
 
-main.py
+python main.py
