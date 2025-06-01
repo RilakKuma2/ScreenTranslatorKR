@@ -432,7 +432,7 @@ class App:
                     quota_value_str = parsed_details.get("quota_value", "정보 없음")
                     retry_delay_str = parsed_details.get("retry_delay", "정보 없음")
                     user_message = (
-                        "API 할당량 초과\n(세부내용)\n"
+                        "API 할당량 초과\n"
                         f"초과 사항 : {quota_id_str}\n할당량 : {quota_value_str}\n"
                     )
                     if retry_delay_str and retry_delay_str != "정보 없음":
