@@ -437,7 +437,7 @@ class App:
                     )
                     if retry_delay_str and retry_delay_str != "정보 없음":
                          wait_time_for_user_info = f"{retry_delay_str}초"
-                user_message += f"권장 재시도 대기: {wait_time_for_user_info}. 프로그램은 짧은 간격으로 계속 시도합니다."
+                user_message += f"권장 재시도 대기: {wait_time_for_user_info}."
                 print(user_message); self.update_translated_text(user_message + "\n", on_overlay=True)
                 time.sleep(max(2.0, current_interval))
 
